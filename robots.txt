@@ -1,0 +1,13 @@
+# Swapeo robots.txt
+User-agent: *
+Allow: /
+# Private, account and staff areas (the app keeps these behind sign-in; listed here as a precaution)
+Disallow: /admin
+Disallow: /account
+Disallow: /orders
+Disallow: /login
+Disallow: /signup
+Disallow: /api/
+Disallow: /functions/
+
+Sitemap: https://swapeo.co.ke/sitemap.xml
